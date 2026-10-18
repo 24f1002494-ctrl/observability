@@ -15,7 +15,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import PlainTextResponse
 
 START_TIME = time.time()
-OWNER_EMAIL = os.getenv("OWNER_EMAIL", "")
+OWNER_EMAIL = os.getenv("OWNER_EMAIL", "24f1002494@ds.study.iitm.ac.in")
 MAX_LOGS = 500
 
 COUNTER_KEY = "svc:http_requests_total"
